@@ -1,3 +1,33 @@
+# Time Complexity Analyzer
+
+This Python program analyzes the time complexity of any given function by measuring its execution time across various input sizes. It provides insights into how the function's performance scales with input size.
+
+## Features
+
+- Measures execution time for any function.
+- Analyzes performance over increasing input sizes.
+- Outputs results that help estimate time complexity.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
+   ```
+
+2. Install required libraries:
+   ```bash
+   pip install numpy matplotlib
+   ```
+## Usage
+1. Define the function you want to analyze within the script.
+2. Run the program:
+   ```bash
+   python time_complexity_analyzer.py
+   ```
+
+   #---------------------------------------------------------------------------------------------------------------------------------------------------------------#
 # Indian Cities Fetcher
 
 This Python program retrieves a list of all cities in India using an API and saves the data into a `.csv` file. It utilizes the `requests` library to fetch data from a suitable API.
